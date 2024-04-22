@@ -54,6 +54,7 @@ def get_user_input():
         except ValueError as e:
             error_label.config(text = str(e))
 
+    
     submit_button = tk.Button(window, text = "Submit", command = get_input)
     submit_button.grid(row=4, columnspan = 2)
 
