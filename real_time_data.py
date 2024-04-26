@@ -2,6 +2,7 @@ from alpaca_trade_api.stream import Stream
 import websocket
 import json
 import config
+
 #from trading_algorithm import RealTimeTradingAlgorithm  # Importing the algorithm class
 
 def on_open(ws):
