@@ -1,5 +1,4 @@
 import tkinter as tk
-
 class ParameterParser:
     @staticmethod
     def paraser_user_input(symbol,buy_condition,sell_condition):
